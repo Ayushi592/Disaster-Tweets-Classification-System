@@ -28,7 +28,7 @@ Relevant features are extracted to represent tweet data, including:
 - N-grams  
 - TF-IDF (Term Frequency–Inverse Document Frequency)
 
-### 🤖 Machine Learning Classification
+### Machine Learning Classification
 Classification models such as:
 - **Naive Bayes**  
 - **Support Vector Machines (SVM)**  
