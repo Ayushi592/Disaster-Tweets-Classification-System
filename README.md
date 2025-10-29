@@ -2,8 +2,8 @@
 
 This app predicts whether a tweet is about a real disaster or not using NLP and machine learning.
 
-### 📸 App Screenshot
-![Streamlit App](<img width="1089" height="537" alt="image" src="https://github.com/user-attachments/assets/0c556bc3-cada-4ec5-9ec8-608d4dd61e52" />
+### App 
+(<img width="1089" height="537" alt="image" src="https://github.com/user-attachments/assets/0c556bc3-cada-4ec5-9ec8-608d4dd61e52" />
 .png)
 
 This project aims to detect tweets related to disaster situations using machine learning techniques.
