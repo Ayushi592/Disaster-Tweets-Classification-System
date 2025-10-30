@@ -82,8 +82,6 @@ Trained and compared multiple classifiers:
 ### 🔹 Testing Data Confusion Matrix
 <img width="374" height="322" alt="image" src="https://github.com/user-attachments/assets/7add3f6d-5c99-4b38-98ea-c13e8bf82a14" />
 
-
-
 **Figure 5:** Confusion Matrix
 
 ---
@@ -98,24 +96,27 @@ Model performance is evaluated using the following:
 - ROC-AUC Curve  
 - Precision-Recall Curve  
 
-Example evaluation code:
-```python
-from sklearn.metrics import classification_report
-print(classification_report(y_test, y_pred))
 
-## Future Improvements
+
+##  Future Improvements
+
 - Incorporate **advanced deep learning models** (e.g., LSTMs or Transformers) to improve classification accuracy  
 - Explore **ensemble techniques** to combine multiple models and boost performance  
 - Enhance the system to handle **multi-language tweets** and adapt to various disaster scenarios  
+- Integrate **real-time Twitter API streaming** for live disaster monitoring  
+- Add **visual analytics dashboard** for quick response insights  
 
 ---
 
-## Contributions
+##  Contributions
+
 Contributions, bug reports, and feedback are welcome!  
-Feel free to open issues or submit pull requests on this repository.
+Feel free to open issues or submit pull requests on this repository.  
+Please ensure that your contributions follow the project’s coding and documentation standards.
 
 ---
 
-## License
+##  License
+
 This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](LICENSE) file for more details.
