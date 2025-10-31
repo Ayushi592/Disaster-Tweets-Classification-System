@@ -5,7 +5,8 @@ This app predicts whether a tweet is about a **real disaster or not** using **Na
 ---
 
 ### Streamlit App
-<img width="1089" height="537" alt="app-demo" src="https://github.com/user-attachments/assets/0c556bc3-cada-4ec5-9ec8-608d4dd61e52" />
+<img width="1822" height="827" alt="image" src="https://github.com/user-attachments/assets/038861b1-6063-4e93-a3d2-49b0bdd16e4c" />
+
 
 ---
 
@@ -63,26 +64,15 @@ Trained and compared multiple classifiers:
 
 **Figure 1:** Class distribution of disaster vs non-disaster tweets.
 
-### 🔹 Word Cloud
-<img width="891" height="448" alt="image" src="https://github.com/user-attachments/assets/d455aeed-5b00-4a98-9195-0ae4bf274714" />
-
-**Figure 2:** Common keywords in disaster-related tweets.
-
 ### 🔹 Model Comparison
 <img width="385" height="142" alt="image" src="https://github.com/user-attachments/assets/1506dc80-0ef1-40ca-b90b-704e390756cb" />
-
-**Figure 3:** Model accuracy comparison chart.
 
 ### 🔹 Testing Data Accuracy
 <img width="250" height="107" alt="image" src="https://github.com/user-attachments/assets/85b20a59-2b9e-4f50-b980-72863d41dcd3" />
 
 
-**Figure 4:** Model accuracy.
-
 ### 🔹 Testing Data Confusion Matrix
 <img width="374" height="322" alt="image" src="https://github.com/user-attachments/assets/7add3f6d-5c99-4b38-98ea-c13e8bf82a14" />
-
-**Figure 5:** Confusion Matrix
 
 ---
 
