@@ -26,7 +26,7 @@ Includes real emergency tweet text, e.g., floods, earthquakes, explosions, fires
 
 ## 📁 Dataset Source: Real Disaster Tweets (Kaggle)
 
-2️⃣ Testing Dataset — Disaster Response Pipeline Messages (Figure Eight)
+## 2️⃣ Testing Dataset — Disaster Response Pipeline Messages (Figure Eight)
 
 Used to validate generalization capability across platforms.
 Contains real messages tagged as emergency vs non-emergency scenarios.
@@ -84,6 +84,7 @@ git clone https://github.com/your-username/disaster-tweet-classifier.git
 cd disaster-tweet-classifier
 pip install -r requirements.txt
 streamlit run app.py
+```
 
  ## Future Work
 
