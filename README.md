@@ -1,112 +1,112 @@
-# Disaster Tweets Classification System
+# 🚨 Disaster Tweets Classification System 
+### Real-time Disaster Tweet Detection using NLP & Machine Learning
 
-This app predicts whether a tweet is about a **real disaster or not** using **Natural Language Processing (NLP)** and **Machine Learning**.
+This project automatically classifies tweets into Disaster and Non-Disaster categories using Natural Language Processing and Machine Learning. It helps support emergency response systems by identifying real crisis-related tweets shared by users on social platforms.
 
----
+## Project Overview
 
-### Streamlit App
-<img width="1822" height="827" alt="image" src="https://github.com/user-attachments/assets/038861b1-6063-4e93-a3d2-49b0bdd16e4c" />
+During disaster situations, Twitter becomes a primary communication platform. However, with millions of posts, manually identifying genuine emergency tweets is difficult.
 
+The objective of this project is to develop an automated system that analyzes tweet text and predicts whether it refers to a real disaster event. This ensures faster crisis detection and supports real-time monitoring systems.
 
----
+The project trains classification models on real labeled disaster tweets and deploys a Streamlit interface for real-time tweet classification.
 
-## Overview
+## 🗂️ Dataset Overview
+## 1️⃣ Training Dataset — Real Disaster Tweets (Kaggle)
 
-Twitter is a powerful medium for sharing information during emergency situations such as **natural disasters**, **accidents**, or **crises**.  
-This project leverages **machine learning algorithms** to classify tweets as either **disaster-related** or **non-disaster-related**, helping in **real-time monitoring and response efforts**.
+Contains tweets marked as:
 
----
-
-## Techniques Used
-
-### Natural Language Processing (NLP)
-Applied to process and analyze tweet text data.
-
-### Text Preprocessing
-Steps include:
-- Removing punctuation and stop words  
-- Converting text to lowercase  
-- Tokenization and stemming/lemmatization  
-- Handling URLs, mentions, and hashtags  
-
-### Feature Engineering
-Extracted meaningful features using:
-- **Bag of Words (BoW)**  
-- **TF-IDF (Term Frequency–Inverse Document Frequency)**  
-- **N-grams**
-
-### Machine Learning Models
-Trained and compared multiple classifiers:
-- Logistic Regression  
-- Naive Bayes  
-- Random Forest  
-- XGBoost  
-
----
-
-## Model Performance
-
-| Metric       | Value  |
-|---------------|--------|
-| **Accuracy**  | 0.84   |
-| **Precision** | 0.82   |
-| **Recall**    | 0.79   |
-| **F1 Score**  | 0.80   |
-
-📈 These metrics indicate a balanced model with strong generalization ability.
-
----
-
-## Visualizations
-
-### 🔹 Dataset Insights
-<img width="509" height="171" alt="image" src="https://github.com/user-attachments/assets/7aaa15c2-662b-40fa-8a07-beef408b8759" />
-
-**Figure 1:** Class distribution of disaster vs non-disaster tweets.
-
-### 🔹 Model Comparison
-<img width="385" height="142" alt="image" src="https://github.com/user-attachments/assets/1506dc80-0ef1-40ca-b90b-704e390756cb" />
-
-### 🔹 Testing Data Accuracy
-<img width="250" height="107" alt="image" src="https://github.com/user-attachments/assets/85b20a59-2b9e-4f50-b980-72863d41dcd3" />
+| Label | Meaning |
+|------|---------|
+| 1 | Disaster Tweet |
+| 0 | Non-Disaster Tweet |
 
 
-### 🔹 Testing Data Confusion Matrix
-<img width="374" height="322" alt="image" src="https://github.com/user-attachments/assets/7add3f6d-5c99-4b38-98ea-c13e8bf82a14" />
+Includes real emergency tweet text, e.g., floods, earthquakes, explosions, fires, etc.
 
----
+## 📁 Dataset Source: Real Disaster Tweets (Kaggle)
 
-## Data and Model Training
+2️⃣ Testing Dataset — Disaster Response Pipeline Messages (Figure Eight)
 
-The project uses a **labeled dataset of tweets**, annotated as disaster or non-disaster.  
-Data is split into **training (70%)** and **testing (30%)** subsets.
+Used to validate generalization capability across platforms.
+Contains real messages tagged as emergency vs non-emergency scenarios.
 
-Model performance is evaluated using the following:
-- Confusion Matrix  
-- ROC-AUC Curve  
-- Precision-Recall Curve  
+## 📁 Dataset Source: Figure Eight Disaster Response Messages Dataset
+
+## ⚙️ NLP Processing Pipeline
+| Step | Description |
+|------|------------|
+| Data Cleaning | Remove URLs, mentions, hashtags, emojis, numbers, punctuation |
+| Lowercasing | Convert text to lowercase |
+| Tokenization | Split text into tokens |
+| Stopword Removal | Remove common non-meaningful words |
+| Lemmatization | Convert words to base/root form |
+| Feature Extraction | TF-IDF Vectorization |
+| Train-Test Split | 70% training — 30% testing |
+| Model Evaluation | Accuracy, Precision, Recall, F1-Score |
+
+## 🤖 Models Trained
+| Model | Description | Training Accuracy |
+|-------|------------|------------------|
+| Logistic Regression | Linear text classifier | **0.84** |
+| Naive Bayes | Probabilistic classifier | 0.82+ |
+| Random Forest | Ensemble decision trees | 0.83+ |
+| XGBoost | Gradient boosting classifier | **0.85+** |
+
+## ✅ Best Models: Logistic Regression & XGBoost
+
+## 📊 Model Performance Summary
+| Metric | Score |
+|-------|------|
+| **Accuracy** | **0.84** |
+| Precision | 0.82 |
+| Recall | 0.79 |
+| F1-Score | 0.80 |
 
 
+## ⭐ Features
 
-##  Future Improvements
+Type any tweet and detect if it indicates a disaster
 
-- Incorporate **advanced deep learning models** (e.g., LSTMs or Transformers) to improve classification accuracy  
-- Explore **ensemble techniques** to combine multiple models and boost performance  
-- Enhance the system to handle **multi-language tweets** and adapt to various disaster scenarios  
-- Integrate **real-time Twitter API streaming** for live disaster monitoring  
-- Add **visual analytics dashboard** for quick response insights  
+Shows classification label instantly
 
----
+Confidence scores & result visualization
 
-##  Contributions
+Modern UI with responsive design
 
-Contributions, bug reports, and feedback are welcome!  
-Feel free to open issues or submit pull requests on this repository.  
-Please ensure that your contributions follow the project’s coding and documentation standards.
+## 🚀 Deployment Link
 
----
+🔗 https://raisable-unobligatory-deshawn.ngrok-free.dev
 
-##  License
+## 🖥️ Run Locally
+```bash
+git clone https://github.com/your-username/disaster-tweet-classifier.git
+cd disaster-tweet-classifier
+pip install -r requirements.txt
+streamlit run app.py
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for more details.
+ ## Future Work
+
+Transformer-based models (BERT, RoBERTa)
+
+Multi-language tweet support
+
+Integration with live Twitter API for real-time monitoring
+
+Emergency alert dashboard & notification system
+
+Cloud deployment with AWS / GCP
+
+## 👩‍💻 Author
+
+Ayushi Nagpure
+Computer Science Engineering Student
+India
+
+GitHub: https://github.com/Ayushi592
+
+LinkedIn: https://linkedin.com/in/ayushinagpure
+
+## 📜 License
+
+This project is licensed under the MIT License — you are free to use, modify, and distribute it for educational or research purposes, provided that proper credit is given to the author.
