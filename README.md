@@ -13,7 +13,7 @@ The objective of this project is to develop an automated system that analyzes tw
 The project trains classification models on real labeled disaster tweets and deploys a Streamlit interface for real-time tweet classification.
 
 ## 🗂️ Dataset Overview
-## 1️⃣ Training Dataset — Real Disaster Tweets (Kaggle)
+## 1️⃣ Training Dataset - Real Disaster Tweets (Kaggle)
 
 Contains tweets marked as:
 
@@ -27,7 +27,7 @@ Includes real emergency tweet text, e.g., floods, earthquakes, explosions, fires
 
  📁 Dataset Source: Real Disaster Tweets (Kaggle)
 
-## 2️⃣ Testing Dataset — Disaster Response Pipeline Messages (Figure Eight)
+## 2️⃣ Testing Dataset - Disaster Response Pipeline Messages 
 
 Used to validate generalization capability across platforms.
 Contains real messages tagged as emergency vs non-emergency scenarios.
