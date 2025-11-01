@@ -1,6 +1,7 @@
 # 🚨 Disaster Tweets Classification System 
 ### Real-time Disaster Tweet Detection using NLP & Machine Learning
 
+
 This project automatically classifies tweets into Disaster and Non-Disaster categories using Natural Language Processing and Machine Learning. It helps support emergency response systems by identifying real crisis-related tweets shared by users on social platforms.
 
 ## Project Overview
@@ -24,14 +25,14 @@ Contains tweets marked as:
 
 Includes real emergency tweet text, e.g., floods, earthquakes, explosions, fires, etc.
 
-## 📁 Dataset Source: Real Disaster Tweets (Kaggle)
+ 📁 Dataset Source: Real Disaster Tweets (Kaggle)
 
 ## 2️⃣ Testing Dataset — Disaster Response Pipeline Messages (Figure Eight)
 
 Used to validate generalization capability across platforms.
 Contains real messages tagged as emergency vs non-emergency scenarios.
 
-## 📁 Dataset Source: Figure Eight Disaster Response Messages Dataset
+ 📁 Dataset Source: Figure Eight Disaster Response Messages Dataset
 
 ## ⚙️ NLP Processing Pipeline
 | Step | Description |
@@ -74,6 +75,10 @@ Confidence scores & result visualization
 
 Modern UI with responsive design
 
+## 🌐 Streamlit Web Application
+An interactive Streamlit web app was built to make the Disaster Tweets Classifier accessible to users in real time.
+The app leverages the trained TF-IDF vectorizer and Logistic Regression model to classify tweets into Disasters.
+
 ## 🚀 Deployment Link
 
 🔗 https://raisable-unobligatory-deshawn.ngrok-free.dev
@@ -110,4 +115,4 @@ LinkedIn: https://linkedin.com/in/ayushinagpure
 
 ## 📜 License
 
-This project is licensed under the MIT License — you are free to use, modify, and distribute it for educational or research purposes, provided that proper credit is given to the author.
+This project is licensed under the MIT License - you are free to use, modify, and distribute it for educational or research purposes, provided that proper credit is given to the author.
