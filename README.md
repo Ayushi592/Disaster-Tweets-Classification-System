@@ -79,9 +79,6 @@ Modern UI with responsive design
 An interactive Streamlit web app was built to make the Disaster Tweets Classifier accessible to users in real time.
 The app leverages the trained TF-IDF vectorizer and Logistic Regression model to classify tweets into Disasters.
 
-## 🚀 Deployment Link
-
-🔗 https://raisable-unobligatory-deshawn.ngrok-free.dev
 
 ## 🖥️ Run Locally
 ```bash
